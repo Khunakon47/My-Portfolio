@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LibSpace - Project Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="project1.css" />
+  </head>
+  <body>
+    <!-- Navigation(same as home page) -->
+    <nav class="navbar-section">
+      <div class="nav-container">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">HOME</a></li>
+          <li><a href="#about" class="nav-link">ABOUT</a></li>
+          <li><a href="#skills" class="nav-link">SKILLS</a></li>
+          <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+          <li><a href="#contact" class="nav-link contact-btn">CONTACT</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="project-tag">Personal Project</div>
+
+            <h1>LibSpace</h1>
+
+            <p class="hero-subtitle">
+                A fully interactive room booking platform for KKU Library featuring advanced search, dynamic filtering, and multi-step booking workflows. Handles complex JavaScript-driven validation, time-slot management, real-time room availability, and booking lookup functionality. Demonstrates proficiency in handling intricate user flows and data management without backend services.
+            </p>
+
+            <div class="tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Advanced Validation</span>
+            </div>
+
+            <div class="hero-actions">
+                <a href="https://khunakon47.github.io/LibSpace/" class="btn btn-primary" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Live Demo</span>
+                </a>
+
+                <a href="https://github.com/Khunakon47/LibSpace" class="btn btn-secondary" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>View Code</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+        <div class="content-grid">
+
+            <!-- Main Content -->
+            <div class="main-content">
+
+                <h2>Project Overview</h2>
+                <p>
+                    LibSpace is a front-end room reservation platform created to simulate how students can book meeting and conference rooms 
+                    at the KKU library. The system includes fully interactive search, filtering, room browsing, booking, and booking lookup— 
+                    all powered through JavaScript without backend integration.
+                </p>
+                <p>
+                    The purpose of this project is to practice front-end architecture, real-world UI structuring, and multi-step user flows 
+                    while simulating realistic room availability, time slot logic, and booking validation.
+                </p>
+
+                <h3>Core Features</h3>
+                <div class="features-list">
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Advanced Room Search & Smart Filtering (Capacity, Amenities)</h4>
+                            <p>
+                                Fully functional search and filtering system using JavaScript that dynamically updates results based on room type, capacity, keywords, amenities, and availability.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>4-Step Booking Wizard with Real-Time Validation</h4>
+                            <p>
+                                Multi-step booking process (Date Selection, Time Slot, User Details, Confirmation) with comprehensive JavaScript validation ensuring data accuracy at each step.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Time-Slot Management with Conflict Detection</h4>
+                            <p>
+                                Sophisticated time slot logic with unavailable dates, fully booked day handling, maximum consecutive slot limits, and disabled past time prevention for realistic booking simulation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Email-Based Booking Lookup & Management</h4>
+                            <p>
+                                Users can enter their email to view bookings across three categories (Upcoming, Past, Cancelled) with full state management controlled through JavaScript.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h3>Technical Implementation</h3>
+                <p>
+                    LibSpace is built using clean semantic HTML, custom CSS, and vanilla JavaScript. 
+                    All booking data, availability simulation, time slot validation, and filtering logic are implemented 
+                    through in-memory objects and arrays.
+                </p>
+
+                <ul>
+                    <li>JavaScript-driven state handling for booking flows</li>
+                    <li>Dynamic DOM rendering for search results and room listings</li>
+                    <li>Responsive layout using CSS Grid & Flexbox</li>
+                    <li>Form validation for booking details</li>
+                    <li>Modular front-end structure prepared for backend integration</li>
+                </ul>
+
+                <h3>Development Process & Learnings</h3>
+                <p>
+                    Designing a sequential reservation workflow helped improve my ability to manage multi-step user 
+                    states using JavaScript. Building realistic time-slot validation logic also strengthened my 
+                    understanding of conditional rendering and UX handling for multi-state UI systems.
+                </p>
+
+                <div class="highlight-box">
+                    <p>
+                        <strong>Key Learning:</strong> Creating an intuitive multi-step booking flow requires clear 
+                        UI feedback, proper state management, and user-friendly restrictions to prevent invalid selections.
+                    </p>
+                </div>
+
+                <h3>Future Development</h3>
+                <ul>
+                    <li>Full backend integration with database</li>
+                    <li>User authentication & personal dashboard</li>
+                    <li>Admin panel for managing rooms and bookings</li>
+                    <li>Real-time availability using API calls</li>
+                    <li>Calendar-based room scheduling</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <p>
+                        <strong>Note:</strong> This project is a front-end simulation. Backend logic, real database, 
+                        and admin tools will be implemented in the next development phase.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+
+                <div class="info-card">
+                    <h3>Project Information</h3>
+                    <div class="info-item">
+                        <span class="info-label">Category</span>
+                        <span class="info-value">Web Application</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Type</span>
+                        <span class="info-value">Personal Project</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Development Time</span>
+                        <span class="info-value">4 Weeks</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Status</span>
+                        <span class="info-value">Front-End Prototype</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Role</span>
+                        <span class="info-value">Solo Developer</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Target Users</span>
+                        <span class="info-value">Students & Library Visitors</span>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3>Technologies Used</h3>
+                    <div class="tech-stack-list">
+                        <span class="tech-item">HTML5</span>
+                        <span class="tech-item">CSS3</span>
+                        <span class="tech-item">JavaScript</span>
+                        <span class="tech-item">Git</span>
+                        <span class="tech-item">GitHub</span>
+                        <span class="tech-item">VS Code</span>
+                        <span class="tech-item">Figma</span>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3>Project Links</h3>
+                    <div style="display: flex; flex-direction: column; gap: 15px;">
+                        <a href="https://khunakon47.github.io/LibSpace/" class="btn btn-primary" target="_blank" style="width: 100%; justify-content: center;">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Live Demo</span>
+                        </a>
+                        <a href="https://github.com/Khunakon47/LibSpace" class="btn btn-secondary" target="_blank" style="width: 100%; justify-content: center;">
+                            <i class="fab fa-github"></i>
+                            <span>View Code</span>
+                        </a>
+                    </div>
+                </div>
+
+            </aside>
+
+        </div>
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+      <h2>Project Screenshots</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="/galleryP4/L.png" alt="Login" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/galleryP4/2.png" alt="Homepage Interface" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/galleryP4/3.png" alt="Study Materials Section" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/galleryP4/4.png" alt="Homepage Interface" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/galleryP4/5.png" alt="Resource Library" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/galleryP4/6.png" alt="Study Materials Section" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+<script>
+    // Hamburger Menu Toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    });
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        });
+    });
+
+    // Navbar Scroll Effect
+    const navbar = document.querySelector('.navbar-section');
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+</script>
+</html>

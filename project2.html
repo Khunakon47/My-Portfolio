@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elderise - Project Details</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="project1.css" />
+  </head>
+  <body>
+    <!-- Navigation(same as home page) -->
+    <nav class="navbar-section">
+      <div class="nav-container">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">HOME</a></li>
+          <li><a href="#about" class="nav-link">ABOUT</a></li>
+          <li><a href="#skills" class="nav-link">SKILLS</a></li>
+          <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+          <li><a href="#contact" class="nav-link contact-btn">CONTACT</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="project-tag">Hackathon 2025</div>
+        <h1>Elderise</h1>
+        <p class="hero-subtitle">
+          A modern, accessible e-learning platform specifically designed for senior care organizations. Features role-based interfaces, intuitive navigation, and component-based architecture built with React. Created as a hackathon entry demonstrating modern frontend practices and inclusive design principles for elderly users.
+        </p>
+        <div class="tech-tags">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Vite</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">CSS3</span>
+        </div>
+        <div class="hero-actions">
+          <a
+            href="https://elderise.vercel.app/"
+            class="btn btn-primary"
+            target="_blank"
+          >
+            <i class="fas fa-external-link-alt"></i>
+            <span>Live Demo</span>
+          </a>
+          <a
+            href="https://github.com/Khunakon47/Elderise"
+            class="btn btn-secondary"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+            <span>View Code</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+      <div class="content-grid">
+        <!-- Main Content -->
+        <div class="main-content">
+          <h2>Project Overview</h2>
+          <p>
+            Elderise is a conceptual learning platform designed to provide
+            income opportunities for elderly and disabled individuals by
+            allowing them to teach online courses. The project explores how
+            thoughtful UI design can reduce digital barriers and make modern
+            platforms more approachable for older adults.
+          </p>
+          <p>
+            This early version focuses on building clear page layouts, simple
+            navigation patterns, readable typography, and touch-friendly UI
+            elements. Special attention was given to user flows commonly
+            challenging for seniors—such as registration, course browsing, and
+            form filling.
+          </p>
+          <p>
+            As this is a front-end-only phase, all interactions—login,
+            chatbot-assisted signup, file uploads, and form validation—are
+            simulated purely through React states without backend services. The
+            goal is to establish a solid UI foundation before integrating real
+            authentication and database features.
+          </p>
+
+          <h3>Core Features</h3>
+          <div class="features-list">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Role-Based Dashboard Interfaces</h4>
+                <p>
+                  Different intuitive dashboards for instructors and learners, designed with accessibility and ease of use as primary concerns for elderly users.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-cube"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Modular React Components with Reusable Layouts</h4>
+                <p>
+                  Built with component-based architecture, ensuring scalability and maintainability for future feature expansions and backend integration.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-universal-access"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Responsive & Accessible UI for All Users</h4>
+                <p>
+                  Large buttons, readable text, high-contrast elements, and touch-friendly design optimized for elderly users across all device sizes.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-bolt"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Built with Vite for Optimal Performance</h4>
+                <p>
+                  Fast development and production builds using Vite, ensuring quick load times and smooth interactions for elderly users with varying connection speeds.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <h3>Technical Implementation</h3>
+          <p>
+            Elderise is built using React and Vite, focusing on reusable UI
+            components, state-driven interactions, and scalable layout patterns.
+          </p>
+          <p>Key technical highlights include:</p>
+          <ul>
+            <li>Component-based interface with clean React structure</li>
+            <li>Responsive design using Flexbox & CSS Grid</li>
+            <li>State-powered onboarding, validation, and UI simulations</li>
+            <li>
+              Modular file structure prepared for future backend integration
+            </li>
+            <li>Fast development environment powered by Vite</li>
+          </ul>
+
+          <h3>Development Process & Learnings</h3>
+          <p>
+            Throughout development, I focused on improving UI UX decisions for
+            elderly users—especially simplifying actions into step-by-step
+            interactions. Iterating on layouts helped refine scalability for
+            real backend data in the future.
+          </p>
+
+          <div class="highlight-box">
+            <p>
+              <strong>Key Learning:</strong> Designing for elderly users
+              requires reducing cognitive load. Breaking down tasks into smaller
+              steps and using familiar interaction patterns significantly
+              improves usability.
+            </p>
+          </div>
+
+          <h3>Project Impact & Future Development</h3>
+          <p>
+            Although currently a front-end prototype, Elderise sets the
+            groundwork for a fully functional learning platform dedicated to
+            empowering seniors through knowledge sharing.
+          </p>
+          <p>Planned future improvements:</p>
+          <ul>
+            <li>Full authentication & account system</li>
+            <li>Instructor and learner dashboards</li>
+            <li>Backend for course data & file uploads</li>
+            <li>Search and filtering tools</li>
+            <li>AI-powered assistant for elderly onboarding</li>
+          </ul>
+
+          <div class="highlight-box">
+            <p>
+              <strong>Note:</strong> This version focuses on UI/UX and
+              interaction flow. Backend services, database functionality, and AI
+              features will be implemented in future development phases.
+            </p>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <div class="info-card">
+            <h3>Project Information</h3>
+            <div class="info-item">
+              <span class="info-label">Category</span>
+              <span class="info-value">Web Application</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Type</span>
+              <span class="info-value">Hackathon Entry (2025)</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Development Time</span>
+              <span class="info-value">6 Weeks</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Status</span>
+              <span class="info-value">Deployed (Front-End Only)</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Role</span>
+              <span class="info-value">Solo Developer</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Target Users</span>
+              <span class="info-value">Senior Care Organizations, Elderly Users</span>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>Technologies Used</h3>
+            <div class="tech-stack-list">
+              <span class="tech-item">React</span>
+              <span class="tech-item">Vite</span>
+              <span class="tech-item">CSS</span>
+              <span class="tech-item">JavaScript</span>
+              <span class="tech-item">Git</span>
+              <span class="tech-item">GitHub</span>
+              <span class="tech-item">VS Code</span>
+              <span class="tech-item">Figma</span>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>Project Links</h3>
+            <div style="display: flex; flex-direction: column; gap: 15px">
+              <a
+                href="https://elderise.vercel.app/"
+                class="btn btn-primary"
+                target="_blank"
+                style="width: 100%; justify-content: center"
+              >
+                <i class="fas fa-external-link-alt"></i>
+                <span>Live Demo</span>
+              </a>
+              <a
+                href="https://github.com/Khunakon47/Elderise"
+                class="btn btn-secondary"
+                target="_blank"
+                style="width: 100%; justify-content: center"
+              >
+                <i class="fab fa-github"></i>
+                <span>View Code</span>
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+      <h2>Project Screenshots</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="/galleryP2/cover.png" alt="Login" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/galleryP2/home.png" alt="Homepage Interface" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/galleryP2/browse.png" alt="Study Materials Section" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/galleryP2/signin.png" alt="Homepage Interface" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/galleryP2/chatbot.png" alt="Resource Library" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/galleryP2/details.png" alt="Study Materials Section" />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+<script>
+    // Hamburger Menu Toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    });
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        });
+    });
+
+    // Navbar Scroll Effect
+    const navbar = document.querySelector('.navbar-section');
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+</script>
+</html>
